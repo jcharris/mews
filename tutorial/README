@@ -1,0 +1,23 @@
+FIRST STEPS
+
+To see how this works on a simple example, first, run
+tutorial_setup.py, which will generate a synthetic wave field at two
+positions, stored first in a pandas dataframe then saved to a text
+file, 'data/tutorial_data.csv'.
+
+Next, run tutorial_pred.py, which will read in the data and construct
+a prediction and plot it.
+
+WHAT'S NEXT
+
+For getting started with more complex cases, wave propagation over a
+submerged bar would be a good next example:
+
+- download the experimental data from
+  <http://dx.doi.org/10.13140/RG.2.1.1408.3443>
+
+- run src/bar_fwd.py to reproduce prediction of the JLN and JLP test cases
+
+- for passing to other combinations of wave gauges, look at
+  src/get_HL2.py for proposed values of H (horizon) and L (look-back)
+  to use
